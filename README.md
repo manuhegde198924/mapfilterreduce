@@ -4,7 +4,12 @@ my own created map,filter,function methods screen shots with outputs refer here:
 
 
 Javascript is a prototype-based language. 
+
+
+
 It means that every native function can receive custom functions or having its original functions modified.
+
+
 the filter function is an array prototype function that returns all elements that match against the callback passed as argument
 const data = [1, 2, 3, 4, 5];
 Array.prototype.myCustomFilter = function (fn) {
